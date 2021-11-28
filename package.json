@@ -1,0 +1,12 @@
+{
+  "name": "dicebot",
+  "description": "A simple dice-throwing Discord bot coded using the Discord.js library.",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "13.3.0"
+  }
+}

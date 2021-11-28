@@ -1,0 +1,50 @@
+{
+    "commands": [
+        {
+            "name": "d4",
+            "description": "Throw one D4!"
+        },
+        {
+            "name": "d6",
+            "description": "Throw one D6!"
+        },
+        {
+            "name": "4d6",
+            "description": "Throw four D6!"
+        },
+        {
+            "name": "d8",
+            "description": "Throw one D8!"
+        },
+        {
+            "name": "d10",
+            "description": "Throw one D10!"
+        },
+        {
+            "name": "2d10",
+            "description": "Throw two D10!"
+        },
+        {
+            "name": "d12",
+            "description": "Throw one D12!"
+        },
+        {
+            "name": "d20",
+            "description": "Throw one D20!"
+        },
+        {
+            "name": "d100",
+            "description": "Throw one D100!"
+        },
+        {
+            "name": "d--",
+            "description": "Specify the sides of the die you want to throw!",
+            "options": [{
+                "name": "sides",
+                "type": "INTEGER",
+                "description": "How many sides should this die have?",
+                "required": true
+            }]
+        }
+    ]
+}
